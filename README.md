@@ -14,7 +14,8 @@ Require the `omni.core` namespace:
 
 Register a value you want to access throughout your application:
 ```clojure
-(omni/register! :db {:host "localhost" :user "user" :pass "a_bad_password"})
+(omni/register! :config {:debug false :app-secret "a-terrible-secret" ...})
+(omni/register! :db     {:connection ...})
 ```
 
 Retrieve a value (or `nil`):
@@ -32,6 +33,8 @@ Insist on getting a value, raise an exception if not found:
 ## Why use Omni instead of Component?
 
 Because Omni is massively simpler, and doesn't require full-app buy-in.
+Just shove things into `omni`, and pluck them out later.
+
 I've got nothing against Component, it's a great tool, but sometimes you really
 just want your "system" to be a global lookup table, without any other baggage.
 
