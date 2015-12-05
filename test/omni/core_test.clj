@@ -17,4 +17,11 @@
       (omni/register! :db {:host "localhost" :user "user" :pass "pass"})
       (let [db (omni/want :db)]
         (is (not (nil? db)))
-        (is (= "user" (:user db)))))))
+        (is (= "user" (:user db))))))
+
+  (testing "Removing from system"
+    (do
+      (omni/register! :db {:host "localhost" :user "user" :pass "pass"})
+      (omni/clear!)
+      (let [db (omni/want :db)]
+        (is (nil? db))))))
