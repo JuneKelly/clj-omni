@@ -1,6 +1,6 @@
 (ns omni.core-test
   (:require [clojure.test :refer :all]
-            [omni.core :refer :all]))
+            [omni.core :as omni]))
 
 (deftest a-test
   (testing "FIXME, I fail."
