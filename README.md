@@ -3,6 +3,17 @@
 A simple, lightweight, global system manager.
 Register values with omni, then retrieve them later.
 
+[![Clojars Project](http://clojars.org/omni/latest-version.svg)](http://clojars.org/omni)
+
+## Install
+
+From [clojars](https://clojars.org/omni):
+
+```clojure
+;; in project.clj dependencies
+[omni "1.0.0"]
+```
+
 ## Usage
 
 Require the `omni.core` namespace:
