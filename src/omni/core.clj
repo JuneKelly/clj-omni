@@ -1,5 +1,4 @@
-(ns omni.core
-  (:require [omni.core :as omni]))
+(ns omni.core)
 
 
 (defonce system-map (atom {}))
