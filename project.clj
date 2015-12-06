@@ -1,4 +1,4 @@
-(defproject omni "1.0.0"
+(defproject omni "1.1.0"
   :description "Simple, global system manager"
   :url "https://github.com/ShaneKilkelly/clj-omni"
   :license {:name "MIT"
