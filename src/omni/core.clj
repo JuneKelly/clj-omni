@@ -34,4 +34,4 @@
 (defn clear!
   "Empty the system map."
   []
-  (swap! system-map (fn [_] {})))
+  (reset! system-map {}))
