@@ -1,5 +1,5 @@
 (defproject omni "1.1.0"
-  :description "Simple, global system manager"
+  :description "Simple, global service locator"
   :url "https://github.com/ShaneKilkelly/clj-omni"
   :license {:name "MIT"
             :url "http://opensource.org/licenses/MIT"}
