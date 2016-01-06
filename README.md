@@ -1,6 +1,6 @@
 # omni
 
-A simple, lightweight, global system manager.
+A simple, lightweight, global service locator.
 Register values with omni, then retrieve them later.
 
 [![Clojars Project](http://clojars.org/omni/latest-version.svg)](http://clojars.org/omni)
